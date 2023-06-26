@@ -1,0 +1,47 @@
+{
+    "webhook enabled": false,
+    "webhook": "",
+    "ping everyone": true,
+
+    "auto update": true,
+    "purchase proxy": false,
+    "proxies enabled": false,
+    "better print": true,
+    "logo dupe": true,
+    "logs reset iteration": 3,
+    "debug": false,
+
+    "mode": "",
+    "custom speed cooldown": -1,
+    "custom casual cooldown": -1,
+    "custom afk cooldown": -1,
+    "custom time cooldown": 1,
+    "custom unix cooldown": -1,
+
+    "time wait minutes": -1,
+    "time wait unix": -1,
+    "print update cooldown": 1.0,
+    
+    "bot token": "",
+    "prefix": "!",
+    "bot enabled": false,
+
+    "purchase paid ugcs": false,
+    "timeout": 3,
+    "paid ugcs max price": 0,
+    "purchase paid ugcs amount": 0,
+
+    "proxy ratelimit cooldown": 0,
+    "ratelimit cooldown": 1,
+
+    "current theme": "baseTheme",
+
+    "cookie": "cookies.txt",
+    "limiteds": "limiteds.txt",
+    "proxies": "proxies.txt",
+
+    "updateReminder": 0,
+    "allowPyThemes": false,
+    "trustExtensions": false,
+    "checkProxies": false
+}
