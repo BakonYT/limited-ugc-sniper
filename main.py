@@ -489,7 +489,7 @@ class UGCSniper:
             return
         Visual.betterPrint("[COLOR_AQUAMARINE_1A]Revisando por actualizaciones potenciales!...")
         async with aiohttp.ClientSession() as s:
-            src = await (await s.get("https://raw.githubusercontent.com/J3ldo/UGC-Sniper/main/main.py")).text()
+            src = await (await s.get("https://github.com/BakonYT/limited-ugc-sniper/blob/main/main.py")).text()
         try: version = src.split("VERSION = \"")[1].split("\"")[0]
         except: version = VERSION
         if version != VERSION:
